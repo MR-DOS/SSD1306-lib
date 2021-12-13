@@ -39,6 +39,10 @@ You need to rewrite several functions to port this library to anything other tha
 ## Example of use
 [See this project](https://github.com/MR-DOS/TDR_diploma_thesis/blob/master/Firmware/src/board.c)
 
+----
+## Hackaday.io project page
+[Project page of this driver](https://hackaday.io/project/183059-ssd1306-display-driver-for-stm32)
+
 ---
 ## References
 [Datasheet](https://cdn-shop.adafruit.com/datasheets/UG-2864HSWEG01.pdf)
