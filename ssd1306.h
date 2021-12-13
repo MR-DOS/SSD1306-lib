@@ -259,6 +259,7 @@ void SSD1306_DrawStringToBuffer(SSD1306_ConfigTypeDef *SSD1306_ConfigStruct, uin
 void SSD1306_DrawLine(SSD1306_ConfigTypeDef *SSD1306_ConfigStruct, int8_t x_start, int8_t y_start, int8_t x_end, int8_t y_end);
 void SSD1306_DrawRectangle(SSD1306_ConfigTypeDef *SSD1306_ConfigStruct, int8_t x_topleft, int8_t y_topleft, int8_t x_bottomleft, int8_t y_bottomleft);
 void SSD1306_ScrollInit(SSD1306_ConfigTypeDef *SSD1306_ConfigStruct);
+void SSD1306_ScrollCommand(SSD1306_ConfigTypeDef *SSD1306_ConfigStruct, EnableState state);
 void SSD1306_SetContrast(SSD1306_ConfigTypeDef *SSD1306_ConfigStruct);
 void SSD1306_MovePartialBufferLineUp(SSD1306_ConfigTypeDef *SSD1306_ConfigStruct, uint8_t start_page, uint8_t stop_page);
 #endif /* SSD1306_H_ */
